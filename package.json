@@ -9,6 +9,8 @@
     "gatsby-plugin-glamor": "^1.6.8",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-typography": "^1.7.10",
+    "gatsby-source-filesystem": "^1.5.6",
+    "gatsby-transformer-remark": "^1.7.19",
     "glamorous": "^4.11.0",
     "typography-theme-moraga": "^0.15.10"
   },
