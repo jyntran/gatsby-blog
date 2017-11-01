@@ -1,17 +1,7 @@
 import React from 'react'
 
-export default ({ data }) =>
+export default () =>
 	<div>
-		<h1>About {data.site.siteMetadata.title}</h1>
+		<h1>About</h1>
 		<p>Coming soon</p>
 	</div>
-
-export const query = graphql`
-  query AboutQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

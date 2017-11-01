@@ -15,17 +15,17 @@ export default ({ children, data }) =>
     paddingTop={rhythm(1.5)}
   >
     <Link to={'/'}>
-      <g.H3
+      <g.H1
         marginBottom={rhythm(2)}
         display={'inline-block'}
-        fontStyle={'normal'}
+        fontSize={'x-large'}
       >
         {data.site.siteMetadata.title}
-      </g.H3>
+      </g.H1>
     </Link>
-    <Link className={linkStyle} to={'/about/'}>
-      About
-    </Link>
+    <a href="http://jyntran.ca" className={linkStyle} target="_blank">
+      Portfolio
+    </a>
     {children()}
   </g.Div>
 
