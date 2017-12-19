@@ -13,18 +13,18 @@ Here's a trick I learned to update a document's hyperlink style to save time and
 
 First, open a document with some hyperlinks you want to change. While on the Home tab, check the bottom corner of Styles for an extra menu button.
 
-{% asset_img fig1.png %}
+![](fig1.png)
 
 Click on it, and a list of styles available on the document appears. Because the document has hyperlinks, there should be a style called Hyperlinks displayed.
 
-{% asset_img fig2.png %}
+![](fig2.png)
 
 Hovering over it will reveal a dropdown button, which gives a variety of options on editing the Hyperlink style.
 
-{% asset_img fig3.png %}
+![](fig3.png)
 
 I usually select **Modify...** so that I can see the following Modify Style dialog, giving me more power over how to edit the style.
 
-{% asset_img fig4.png %}
+![](fig4.png)
 
 Now I can remove all of those pesky underlines from my hyperlinks all at once!

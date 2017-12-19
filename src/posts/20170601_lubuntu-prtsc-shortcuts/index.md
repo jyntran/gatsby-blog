@@ -10,8 +10,8 @@ If I want to take a screenshot on Lubuntu, I can simply press PrtSc on my keyboa
 
 What I discovered recently is that there's a shortcut to take a screenshot of only the window: **Alt + PrtSc**.
 
-{% asset_img prtsc.png PrtSc takes a picture of the entire screen %}
+![Prtsc](prtsc.png "PrtSc takes a picture of the entire screen")
 
-{% asset_img altprtsc.png Alt + PrtSc takes a picture of the selected window %}
+![Alt + PrtSc](altprtsc.png "Alt + PrtSc takes a picture of the selected window")
 
 Sadly, Shift + PrtSc doesn't work to take a screenshot of a selection of the screen, but I think it requires some additional editing on `~/.config/openbox/lubuntu-rc.xml`.
