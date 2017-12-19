@@ -5,9 +5,10 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   'a, a:hover': {
     color: '#cc0000'
   },
-  'pre': {
-    backgroundColor: '#f6f6f6',
-    'overflow-x': 'auto'
+  'code, pre': {
+    color: '#666666',
+    backgroundColor: '#fafafa',
+    overflowX: 'auto' 
   }
 })
 
