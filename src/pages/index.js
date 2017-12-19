@@ -5,7 +5,6 @@ import Link from 'gatsby-link'
 import { rhythm } from '../utils/typography'
 
 export default ({ data }) => {
-	console.log(data)
 	return (
 		<div>
 			<h4>
@@ -19,7 +18,7 @@ export default ({ data }) => {
 					>
 						<g.H3 marginBottom={rhythm(1/4)}>
 							{node.frontmatter.title}{' '}
-							<g.Span color="#bbb">- {node.frontmatter.date}</g.Span>
+							<g.Span color="#767676">- {node.frontmatter.date}</g.Span>
 						</g.H3>
 					</Link>
 					<p>
