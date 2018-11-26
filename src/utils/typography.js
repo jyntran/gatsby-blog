@@ -1,5 +1,5 @@
-import Typography from 'typography'
-import moragaTheme from 'typography-theme-moraga'
+const Typography = require('typography')
+const moragaTheme = require('typography-theme-moraga')
 
 moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   'a, a:hover': {

@@ -1,6 +1,7 @@
 import React from 'react'
 import g from 'glamorous'
 import Link from 'gatsby-link'
+import { graphql } from 'gatsby' 
 
 import { rhythm } from '../utils/typography'
 

@@ -2,7 +2,7 @@ import React from 'react'
 import g from 'glamorous'
 import { css } from 'glamor'
 import Link from 'gatsby-link'
-
+import { graphql } from 'gatsby'
 import { rhythm } from '../utils/typography'
 
 const linkStyle = css({ float: 'right'})
