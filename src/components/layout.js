@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-import './layout.css'
 
 export default ({ children, location }) => (
    <StaticQuery
@@ -18,9 +17,10 @@ export default ({ children, location }) => (
        <>
          <Helmet titleTemplate={`%s | ${data.site.siteMetadata.title}`} defaultTitle={data.site.siteMetadata.title} />
          <div className="container">
-            <h1><a href="/">
+            <div className="header"><h1><a href="/">
               {data.site.siteMetadata.title}</a></h1>
-            <div style={{textAlign:'right'}}>
+            </div>
+            <div className="nav">
             <a href="https://jyntran.ca" target="_blank" rel="noopener noreferrer">
             Portfolio
             </a>
