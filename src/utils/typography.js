@@ -32,7 +32,7 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
     padding: '.6em'
   },
   '.header': {
-    width: '30%',
+    width: '60%',
     float: 'left'
   },
   '.header a': {
@@ -41,13 +41,18 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
     padding: '.2em'
   },
   '.nav': {
-    width: '70%',
+    width: '40%',
     float: 'left',
     fontSize: '1.25em',
     height: '2.1em',
     marginBottom: '2em',
-    padding: '.3em .1em',
+    padding: '.25em .1em',
+    textAlign: 'right',
     textTransform: 'uppercase'
+  },
+  '.nav a:hover': {
+    textDecoration: 'none',
+    borderBottom: 'thin solid #f66'
   },
   '.postEntry': {
     fontSize: '1.1em'

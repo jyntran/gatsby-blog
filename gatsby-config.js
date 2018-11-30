@@ -30,6 +30,7 @@ module.exports = {
 			]
 		}
 	},
-  	'gatsby-plugin-glamor'
+  	'gatsby-plugin-glamor',
+	'gatsby-plugin-favicon'
  ]
 }

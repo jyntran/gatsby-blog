@@ -5,8 +5,7 @@ import { graphql } from 'gatsby'
 export default ({ data }) => {
 	const post = data.markdownRemark
 	return (
-	<Layout>
-		<div className="main">
+		<Layout>
 			<h1>
 				{post.frontmatter.title}
 			</h1>
@@ -15,8 +14,7 @@ export default ({ data }) => {
 			</h3>
 
 			<div dangerouslySetInnerHTML={{ __html: post.html }} />
-		</div>
-	</Layout>
+		</Layout>
 	)
 }
 

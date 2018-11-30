@@ -25,7 +25,7 @@ export default ({ children, location }) => (
             Portfolio
             </a>
             </div>
-           <div>
+           <div className="main">
              {children}
            </div>
          </div>

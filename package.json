@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^2.0.55",
     "gatsby-link": "^2.0.6",
+    "gatsby-plugin-favicon": "^3.1.4",
     "gatsby-plugin-glamor": "^2.0.6",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sharp": "^2.0.13",
