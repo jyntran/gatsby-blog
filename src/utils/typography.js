@@ -9,7 +9,7 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   '.container': {
     color: '#eee',
     fontFamily: 'sans-serif',
-    margin: '.5em auto 1em auto',
+    margin: 'auto auto 1em',
     width: '80%',
     maxWidth: '1000px'
   },
@@ -31,24 +31,30 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   'pre': {
     padding: '.6em'
   },
+  '.topBar': {
+    padding: '.4em 0',
+    marginBottom: '.8em'
+  },
   '.header': {
-    width: '60%',
-    float: 'left'
+    display: 'inline-block',
+    paddingTop: '.2em'
   },
   '.header a': {
     backgroundColor: '#f66',
     color: '#333',
-    padding: '.2em'
+    padding: '.25em'
   },
   '.nav': {
-    width: '40%',
-    float: 'left',
+    display: 'inline-block',
+    float: 'right',
     fontSize: '1.25em',
     height: '2.1em',
-    marginBottom: '2em',
-    padding: '.25em .1em',
+    padding: '.4em .1em',
     textAlign: 'right',
     textTransform: 'uppercase'
+  },
+  '.nav a': {
+    marginLeft: '.8em'
   },
   '.nav a:hover': {
     textDecoration: 'none',
