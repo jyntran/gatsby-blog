@@ -63,8 +63,11 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   '.postEntry': {
     fontSize: '1.1em'
   },
-  '.postEntry a': {
-    fontWeight: 'bold'
+  '.postEntry h2': {
+    marginBottom: '0.525rem'
+  },
+  '.postEntry .date': {
+    fontStyle: 'italic'
   }
 })
 
