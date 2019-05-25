@@ -67,6 +67,13 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   },
   '.postEntry a': {
     fontWeight: 'bold'
+  },
+  '.postHeader': {
+    borderBottom: '#966 solid .1em',
+    marginBottom: '1.25em'
+  },
+  '.postHeader h2': {
+    fontSize: '1.2em'
   }
 })
 
