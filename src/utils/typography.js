@@ -9,7 +9,7 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   '.container': {
     color: '#eee',
     fontFamily: 'sans-serif',
-    margin: '.5em auto 1em auto',
+    margin: '0 auto 1em auto',
     width: '80%',
     maxWidth: '1000px'
   },
@@ -32,33 +32,48 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
     padding: '.6em'
   },
   '.header': {
-    width: '60%',
     float: 'left'
   },
   '.header a': {
     backgroundColor: '#f66',
+    borderRadius: '0 0 .2em .2em',
     color: '#333',
-    padding: '.2em'
+    lineHeight: '1.5em',
+    padding: '.2em .4em'
   },
   '.nav': {
-    width: '40%',
     float: 'left',
     fontSize: '1.25em',
+    fontWeight: 'bold',
     height: '2.1em',
-    marginBottom: '2em',
-    padding: '.25em .1em',
+    letterSpacing: '.05em',
+    margin: '0 1em 2em 1em',
+    padding: '.5em .1em',
     textAlign: 'right',
-    textTransform: 'uppercase'
+    textTransform: 'lowercase'
   },
   '.nav a:hover': {
     textDecoration: 'none',
     borderBottom: 'thin solid #f66'
   },
+  '.main': {
+    clear: 'both',
+    paddingBottom: '1em'
+  },
   '.postEntry': {
-    fontSize: '1.1em'
+    borderBottom: '#966 solid .1em',
+    fontSize: '1.1em',
+    margin: '1em 0 1.5em'
   },
   '.postEntry a': {
     fontWeight: 'bold'
+  },
+  '.postHeader': {
+    borderBottom: '#966 solid .1em',
+    marginBottom: '1.25em'
+  },
+  '.postHeader h2': {
+    fontSize: '1.2em'
   }
 })
 
