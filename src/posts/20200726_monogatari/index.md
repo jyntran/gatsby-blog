@@ -1,5 +1,5 @@
 ---
-title: "Monogatari"
+title: "Hello, Monogatari"
 tags:
   - monogatari
   - javascript
