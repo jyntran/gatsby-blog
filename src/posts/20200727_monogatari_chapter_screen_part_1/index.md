@@ -1,10 +1,10 @@
 ---
-title: "Monogatari: Creating a Chapter Screen"
+title: "Monogatari: Creating a Chapter Screen, Part 1"
 tags: ["monogatari", "javascript"]
 date: "2020-07-27T04:02:00.000Z"
 ---
 
-This next Monogatari spotlight is a monster!
+This next Monogatari spotlight is a monster! So this has been split into multiple parts.
 
 I'm going to cover making a new `ScreenComponent`. How did I find about doing that? By checking the `lib` folder in the source for the right component to create: [ScreenComponent.js](https://github.com/Monogatari/Monogatari/blob/develop/src/lib/ScreenComponent.js).
 
