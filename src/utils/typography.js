@@ -68,12 +68,29 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   '.postEntry a': {
     fontWeight: 'bold'
   },
+  '.postEntry p': {
+    marginTop: '1.45rem'
+  },
   '.postHeader': {
     borderBottom: '#966 solid .1em',
-    marginBottom: '1.25em'
+    marginBottom: '1.25em',
+    paddingBottom: '1.25em'
   },
   '.postHeader h2': {
     fontSize: '1.2em'
+  },
+  '.postTags': {
+    display: 'inline-block',
+    marginBottom: '0',
+    marginLeft: '.25rem'
+  },
+  '.postTag': {
+    display: 'inline-block',
+    marginRight: '.5em',
+    marginBottom: '0'
+  },
+  '.postTag a': {
+    fontWeight: 'normal'
   }
 })
 

@@ -1,9 +1,12 @@
 import React from 'react'
 import Layout from "../components/layout"
+import PostTag from "../components/post-tag"
 import { graphql } from 'gatsby' 
 
 export default ({ data }) => {
 	const post = data.markdownRemark
+	const postTags = post.frontmatter.tags != null ? post.frontmatter.tags.map((tag) =>  <PostTag key={tag} tag={tag}></PostTag>) : []
+
 	return (
 		<Layout>
 			<div className="postHeader">
@@ -13,6 +16,9 @@ export default ({ data }) => {
 				<h2>
 					{post.frontmatter.date}
 				</h2>
+				{post.frontmatter.tags ? (<div>
+					Tags: <ul class="postTags">{postTags}</ul>
+				</div>) : ''}
 			</div>
 
 			<div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -26,7 +32,8 @@ export const query = graphql`
 			html
 			frontmatter {
 				title,
-            	date(formatString: "MMMM D, YYYY")
+				date(formatString: "MMMM D, YYYY"),
+				tags
 			}
 		}
 	}
