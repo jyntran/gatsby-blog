@@ -74,6 +74,15 @@ moragaTheme.overrideThemeStyles = ({ rhythm }, options, styles) => ({
   },
   '.postHeader h2': {
     fontSize: '1.2em'
+  },
+  '.postTags': {
+    display: 'inline-block',
+    marginBottom: '1rem',
+    marginLeft: '.25rem'
+  },
+  '.postTag': {
+    display: 'inline-block',
+    marginRight: '.5em'
   }
 })
 

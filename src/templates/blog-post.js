@@ -15,7 +15,7 @@ export default ({ data }) => {
 				<h2>
 					{post.frontmatter.date}
 				</h2>
-				<div>Tags: <ul>{postTags}</ul>
+				<div>Tags: <ul class="postTags">{postTags}</ul>
 				</div>
 			</div>
 
